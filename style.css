@@ -1,0 +1,166 @@
+html,body {
+ margin:0;
+ padding:0;
+ height:100%;
+}
+
+body {       
+ font: 80%/1.0 Arial,sans-serif;
+ background:#cacaca;
+ padding:0;
+ margin:0;
+}
+
+a {
+ color: #552210;
+ background: inherit; 
+ text-decoration: none;
+}
+
+a:hover {
+ color: #ee4410; 
+ background: inherit; 
+ text-decoration: none;
+}
+
+h1 { 
+ font: 1.4em Arial, Arial, Sans-Serif;
+}
+
+h2 { 
+ font: bold 1.0em Arial, Arial, Sans-Serif; 
+ color: #ee4410; 
+ padding: 0;
+ margin: 0;
+}
+
+img{
+ draggable:false;
+}
+
+#header {
+ width:70%;
+ height:auto;
+ margin-left: auto ;
+ margin-right: auto ;
+ background-color: #cacaca;
+ padding:6px;
+ overflow: hidden;
+ text-align: center;
+}
+
+
+#container {
+ width:70%;
+ margin-left: auto ;
+ margin-right: auto ;
+ padding:5px;
+ overflow: hidden;
+}
+
+#left {
+ width: 17%;
+ float:left;
+ text-align: center;
+ height: auto;
+ border: 2px dotted gray;
+ padding:2px;
+ background-color:#d4d4d4;
+} 
+
+#right {
+ border: 1px;
+ width: 78%;
+ float: left;
+ text-align: center;
+ height: auto; 
+ padding:2px;
+
+}
+
+#game {
+ width: 83%;
+ float:left;
+ height: auto;
+ padding: 2px;   
+ text-align: center;
+ display:table-cell; 
+ vertical-align:middle;
+} 
+
+
+
+#gamediv {
+ width: 315px;
+ margin-left: auto ;
+ margin-right: auto ;
+}
+
+/*********div_blocchi*********/
+.elem_box {
+ float: left;
+ height: 34px;
+ width: 34px;
+
+}
+
+.line_box {
+ height: 34px;
+ width: 34px;
+}
+
+.middle_box {
+ height: 34px;
+ width: 34px; 
+ text-align: center;
+ display:table-cell; 
+ vertical-align:middle;
+}
+/******END***div_blocchi*******/
+
+#rules {
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ right: 0;
+ top: 110px;
+ width: 310px;
+ height: 310px;
+ border: 1px black;
+ position:absolute;
+ background-color:#d4d4d4;
+ z-index: 10;
+ border: 2px dotted gray;
+ padding: 5px;
+ display:none;
+ text-align: center;
+}
+
+#rule_img{
+ border: 2px solid gray;
+ 
+}
+
+#msgdiv {
+ float:left;
+ width:100%;
+}
+
+#box {
+ text-align: left;
+ margin-left: auto;
+ margin-right: auto;
+ width: 15%;
+ float: right;
+ padding: 2px;
+ font: 78%/1.0 Arial,sans-serif;
+}
+
+#footer {
+ width:70%;
+ height:auto;
+ margin-left: auto ;
+ margin-right: auto ;
+ text-align: center;
+ padding: 6%;
+}
