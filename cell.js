@@ -93,7 +93,7 @@ Cell.prototype.set = function(c) {
         this.dom_elem.onclick = new Function('click(' + this.xpos + "," + this.ypos + ')');
     }
     else
-        this.dom_elem.setAttribute("onClick","click(" + this.xpos + "," + this.ypos + ")");
+        this.dom_elem.setAttribute("onClick","click_ball(" + this.xpos + "," + this.ypos + ")");
     this.unSelect();
 }
 

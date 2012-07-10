@@ -15,7 +15,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-var version="0.7.4";
+var version="0.7.5";
 
 var locked=false;
 var selected=false;
@@ -151,7 +151,7 @@ function randomSet() {
     updateStatistics();
 }
 
-function click(x,y) {   
+function click_ball(x,y) {   
     if (count(blank) == 0) {
         setMsg("msg",lang['gameover']);
         setMsg("starta",lang['mnu_start']);
